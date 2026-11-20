@@ -1,7 +1,7 @@
 # ZEAL EDUCATION SOCIETY’S
 # ZEAL COLLEGE OF ENGINEERING AND RESEARCH
 ### NARHE │ PUNE - 41 │ INDIA
-### Department Of Information Technology
+### Department Of Artificial Intelligence & Machine Learning (AIML)
 **(Accredited with Grade 'A' by NAAC)**
 
 ---
@@ -11,8 +11,8 @@
 
 ## **PROJECT SYNOPSIS**
 
-**Department:** Information Technology  
-**Academic Year:** 2024–2025 / 2025–2026 &nbsp;&nbsp;&nbsp;&nbsp; **Semester:** II &nbsp;&nbsp;&nbsp;&nbsp; **Class:** BE &nbsp;&nbsp;&nbsp;&nbsp; **Div:** B &nbsp;&nbsp;&nbsp;&nbsp; **Date:** 20/11/2026  
+**Department:** Artificial Intelligence & Machine Learning (AIML)  
+**Academic Year:** 2026–2027 &nbsp;&nbsp;&nbsp;&nbsp; **Semester:** II &nbsp;&nbsp;&nbsp;&nbsp; **Div:** C_C1 &nbsp;&nbsp;&nbsp;&nbsp; **Team Name:** THE SCABBARDS &nbsp;&nbsp;&nbsp;&nbsp; **Date:** 21/11/2026  
 
 ---
 
@@ -20,19 +20,19 @@
 **Zeal College of Engineering & Research, Narhe, Pune - 41**
 
 ### 2) Name of the Course:
-**Bachelor of Engineering (B.E.) in Information Technology**
+**Bachelor of Engineering (B.E.) in Artificial Intelligence & Machine Learning (AIML)**
 
 ### 3) Name of the Students & Group Details:
 
-| Project Group No. | Names of the Students | Project / Dissertation Title | Guide / Co-Guide |
+| Team / Group | Names of the Students | Project / Dissertation Title | Guide / Advisor |
 | :---: | :--- | :--- | :--- |
-| **07** | 1. [Member 1 - Name] (Roll No: ____) <br>2. [Member 2 - Name] (Roll No: ____) <br>3. [Member 3 - Name] (Roll No: ____) <br>4. [Member 4 - Name] (Roll No: ____) | **Zero-Day Phishing & Malicious URL Classification Using Machine Learning Analytics** | **Prof. [Guide Name]** |
+| **THE SCABBARDS**<br>(Div: C_C1) | 1. **Aditya Dhanure** (Roll No: AM1309)<br>2. **Mohan Dukare** (Roll No: AM1311)<br>3. **Vedant Jadhav** (Roll No: AM1315)<br>4. **Prem Jha** (Roll No: AM1317) | **Zero-Day Phishing & Malicious URL Classification Using Machine Learning Analytics** | **Prof. Kajal Gauddab**<br>(Assistant Professor, Dept. of AIML) |
 
 ### 4) Date of Project Registration:
-**20/11/2026**
+**21/11/2026**
 
 ### 5) Name of the Guide:
-**Prof. [Guide Name]**
+**Prof. Kajal Gauddab** (Assistant Professor, Dept. of AIML)
 
 ### 6) Proposed Title:
 **Zero-Day Phishing & Malicious URL Classification Using Machine Learning Analytics**
@@ -59,20 +59,20 @@ Consequently, there is an urgent industry requirement for an autonomous, lightwe
 
 ### 9) Literature Review:
 
-| Sr. No. | Author | ML Algorithms Used | Classifiers | Datasets Used | Optimizers Used | Activation Functions | Accuracy (%) |
+| Sr. No. | Author | ML Algorithms Used | Classifiers | Datasets Used | Optimizers / Criteria | Activation / Splits | Accuracy (%) |
 | :---: | :--- | :--- | :--- | :--- | :--- | :--- | :---: |
-| 1 | **Mohammad et al.** | Neural Networks, Autoencoders | Binary Classification | PhishTank, Alexa Top 1M | Adam | ReLU, Sigmoid | **97.10%** |
-| 2 | **Sahingoz et al.** | Random Forest, Decision Trees, Naïve Bayes | Binary & Multi-class | UNB ISCX-URL2016 | - | - | **97.98%** |
-| 3 | **Al-Ahmadi et al.** | Deep Learning (CNN + Bi-LSTM) | Binary Classification | Kaggle Phishing Dataset | RMSprop | ReLU, Softmax | **98.12%** |
-| 4 | **Rao & Pais** | Ensemble Learning (Random Forest + XGBoost) | Binary Classification | UCI Machine Learning Repository | - | - | **96.80%** |
-| 5 | **Proposed Work (Team)** | **Ensemble Random Forest & Logistic Regression** | **Binary Classification (Benign vs. Malicious)** | **PhishTank Verified + Tranco Benchmark (1200 Samples)** | **Gini / Log-Loss** | **Decision Trees (Ensemble)** | **99.83% (CV)** |
+| 1 | **Muhammad Zeeshan et al.** | Deep Learning, LSTM | Multiclass | UNSW-NB15, Bot-IoT | Adam | ReLU | **97.10%** |
+| 2 | **O. K. Sahingoz et al.** | Random Forest, Decision Tree | Binary & Multiclass | UNB ISCX-URL2016 | Gini / Entropy | Tree Splits | **97.98%** |
+| 3 | **A. Al-Ahmadi et al.** | Deep Learning, Bi-LSTM | Binary Classification | Kaggle Phishing Bench | RMSprop | ReLU, Softmax | **98.12%** |
+| 4 | **R. S. Rao & A. R. Pais** | Heuristic Rules, SVM | Binary Classification | UCI Repository | SMO / L-BFGS | RBF Kernel | **96.80%** |
+| 5 | **Proposed Work (THE SCABBARDS)** | **Random Forest & Logistic Reg.** | **Binary (Safe vs Malicious)** | **PhishTank + Tranco (1500)** | **Gini / L-BFGS** | **120 Ensembles** | **99.67% (99.83% CV)** |
 
 ---
 
 ### 10) Objectives:
 1. **Comprehensive Literature Review:** To conduct an extensive analytical survey of existing statistical and machine learning methodologies for malicious URL and phishing detection.
 2. **Multi-Dimensional Feature Engineering:** To construct a robust feature extraction engine capable of deriving 19 lexical, structural, statistical (Shannon entropy), and keyword-based threat vectors from raw URLs.
-3. **Data Preprocessing & Balance Assurance:** To ingest and process balanced benchmark datasets consisting of verified benign and malicious domains with rigorous train/test partitioning to prevent data leakage.
+3. **De-Biased Dataset Ingestion:** To assemble a balanced benchmark dataset of verified benign and malicious domains with protocol parity (accounting for modern HTTPS phishing) to avoid shortcut overfitting.
 4. **Machine Learning Model Development & Optimization:** To design, train, and validate baseline (Logistic Regression) and advanced ensemble (Random Forest) classification models with 5-fold Stratified Cross-Validation.
 5. **Real-Time Explainable Threat Inference:** To engineer an operational, millisecond-latency prediction module delivering actionable threat classification, confidence scoring, and interpretable indicator flags.
 
@@ -83,7 +83,7 @@ The proposed project follows an industry-aligned Machine Learning engineering li
 
 1. **Collection of Benchmark Datasets:** Ingesting verified malicious and phishing URLs (from PhishTank, threat intelligence feeds) and legitimate domains (from Tranco, Alexa top sites, academic portals).
 2. **Lexical & Entropy Feature Extraction:** Deriving 19 discriminative features including URL length, domain length, character ratios, digit density, IP address in hostname, Shannon entropy, and sensitive keyword presence.
-3. **Exploratory Data Analysis (EDA) & Cleaning:** Verifying feature distributions, checking variance, eliminating outliers, and performing stratified 80/20 train-test partitioning.
+3. **Exploratory Data Analysis (EDA) & Cleaning:** Normalizing bare domains, balancing protocol distributions, and performing stratified 80/20 train-test partitioning.
 4. **Model Architecture Selection:** Establishing a standardized Logistic Regression baseline and developing a Random Forest Ensemble (120 estimators, depth-constrained to avoid overfitting).
 5. **Model Training & Cross-Validation:** Performing 5-Fold Stratified Cross-Validation to guarantee generalization and evaluate Precision, Recall, F1-Score, and ROC-AUC.
 6. **Evaluation, Serialization & Inspection Tool:** Serializing the trained artifact (`.joblib`), outputting performance matrices, and constructing a standalone CLI tool for real-time URL inspection.
@@ -95,8 +95,9 @@ The information given by us is correct and the necessary computing and software 
 
 <br><br><br>
 _________________________ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _________________________  
-**Guide** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Mini Project Coordinator**  
+**Prof. Kajal Gauddab** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Mini Project Coordinator**  
+*(Guide - Dept. of AIML)*
 
 <br><br>
 _________________________ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _________________________  
-**Academic Coordinator** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Head of the Department (IT)**  
+**Academic Coordinator** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Head of the Department (AIML)**  

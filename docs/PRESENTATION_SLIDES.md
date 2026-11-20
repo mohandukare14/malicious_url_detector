@@ -2,22 +2,25 @@
 
 **Project Title:** Zero-Day Phishing & Malicious URL Classification Using Machine Learning Analytics  
 **Institution:** Zeal College of Engineering and Research, Narhe, Pune - 41  
-**Department:** Department of Information Technology  
+**Department:** Department of Artificial Intelligence & Machine Learning (AIML)  
+**Team Name:** THE SCABBARDS  
+**Division:** C_C1  
 **File Location:** `presentation.pptx`
 
 ---
 
 ## Slide 1: Title Slide
 * **Institution:** ZEAL EDUCATION SOCIETY’S | ZEAL COLLEGE OF ENGINEERING AND RESEARCH, PUNE - 41
-* **Department:** Department of Information Technology (NAAC 'A' Grade Accredited)
+* **Department:** Department of Artificial Intelligence & Machine Learning (AIML)
 * **Project Title:** Zero-Day Phishing & Malicious URL Classification Using Machine Learning Analytics
+* **Team Name:** THE SCABBARDS  │  **Division:** C_C1
 * **Team Members:**
-  * Member 1: [Name] | Roll No: _____
-  * Member 2: [Name] | Roll No: _____
-  * Member 3: [Name] | Roll No: _____
-  * Member 4: [Name] | Roll No: _____
-* **Project Guide / Advisor:** Prof. [Guide Name]
-* **Academic Year:** 2024–2026
+  * 1. Aditya Dhanure (Roll No: AM1309)
+  * 2. Mohan Dukare (Roll No: AM1311)
+  * 3. Vedant Jadhav (Roll No: AM1315)
+  * 4. Prem Jha (Roll No: AM1317)
+* **Project Guide & Advisor:** Prof. Kajal Gauddab (Assistant Professor, Dept. of AIML)
+* **Academic Year:** 2026–2027
 
 ---
 

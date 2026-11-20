@@ -45,7 +45,7 @@ def build_presentation():
         tf.margin_top = tf.margin_bottom = tf.margin_left = tf.margin_right = 0
         
         p_sub = tf.paragraphs[0]
-        p_sub.text = f"ZEAL COLLEGE OF ENGINEERING & RESEARCH  │  {category}"
+        p_sub.text = f"ZEAL COLLEGE OF ENGINEERING & RESEARCH  │  DEPARTMENT OF ARTIFICIAL INTELLIGENCE & MACHINE LEARNING (AIML)"
         p_sub.font.size = Pt(12)
         p_sub.font.bold = True
         p_sub.font.color.rgb = ACCENT_CYAN
@@ -90,7 +90,7 @@ def build_presentation():
     p.alignment = PP_ALIGN.CENTER
 
     p = tf1.add_paragraph()
-    p.text = "DEPARTMENT OF INFORMATION TECHNOLOGY (NAAC ACCREDITED 'A' GRADE)"
+    p.text = "DEPARTMENT OF ARTIFICIAL INTELLIGENCE & MACHINE LEARNING (AIML)"
     p.font.size = Pt(13)
     p.font.bold = True
     p.font.color.rgb = GOLD_YELLOW
@@ -105,7 +105,7 @@ def build_presentation():
     p.alignment = PP_ALIGN.CENTER
 
     # Project Details Container
-    card1 = s1.shapes.add_shape(MSO_SHAPE.ROUNDED_RECTANGLE, Inches(1.2), Inches(4.2), Inches(10.93), Inches(2.6))
+    card1 = s1.shapes.add_shape(MSO_SHAPE.ROUNDED_RECTANGLE, Inches(1.2), Inches(4.2), Inches(10.93), Inches(2.7))
     card1.fill.solid()
     card1.fill.fore_color.rgb = RGBColor(19, 34, 64)
     card1.line.color.rgb = ACCENT_CYAN
@@ -113,25 +113,34 @@ def build_presentation():
 
     tfc = card1.text_frame
     tfc.word_wrap = True
+    
     p = tfc.paragraphs[0]
-    p.text = "TEAM MEMBERS (BE IT)                                              PROJECT GUIDE & ADVISOR"
-    p.font.size = Pt(15)
+    p.text = "TEAM NAME: THE SCABBARDS  │  DIV: C_C1"
+    p.font.size = Pt(16)
     p.font.bold = True
     p.font.color.rgb = ACCENT_CYAN
+    p.alignment = PP_ALIGN.CENTER
     p.space_after = Pt(8)
 
+    p = tfc.add_paragraph()
+    p.text = "MEMBERS:                                                              PROJECT GUIDE & ADVISOR:"
+    p.font.size = Pt(14)
+    p.font.bold = True
+    p.font.color.rgb = GOLD_YELLOW
+    p.space_after = Pt(4)
+
     rows_info = [
-        ("1. [Member 1 Name]   (Roll No: ____)", "Prof. [Guide Name]"),
-        ("2. [Member 2 Name]   (Roll No: ____)", "Assistant Professor, Dept. of IT"),
-        ("3. [Member 3 Name]   (Roll No: ____)", "Academic Year: 2024 - 2026"),
-        ("4. [Member 4 Name]   (Roll No: ____)", "ZCOER Narhe, Pune - 41")
+        ("1. Aditya Dhanure (Roll No: AM1309)", "Prof. Kajal Gauddab"),
+        ("2. Mohan Dukare   (Roll No: AM1311)", "Assistant Professor, Dept. of AIML"),
+        ("3. Vedant Jadhav  (Roll No: AM1315)", "Academic Year: 2026 - 2027"),
+        ("4. Prem Jha       (Roll No: AM1317)", "ZCOER Narhe, Pune - 41")
     ]
     for m_text, g_text in rows_info:
         p = tfc.add_paragraph()
-        p.text = f"{m_text:<48}  {g_text}"
+        p.text = f"{m_text:<45}  {g_text}"
         p.font.size = Pt(14)
         p.font.color.rgb = TEXT_LIGHT
-        p.space_after = Pt(4)
+        p.space_after = Pt(3)
 
     # =========================================================================
     # SLIDE 2: TABLE OF CONTENTS (Font 16-17 pt)
@@ -806,7 +815,7 @@ def build_presentation():
     p.space_after = Pt(28)
 
     p = tf18.add_paragraph()
-    p.text = "Department of Information Technology\nZeal College of Engineering and Research, Pune - 41"
+    p.text = "Department of Artificial Intelligence & Machine Learning (AIML)\nZeal College of Engineering and Research, Pune - 41"
     p.font.size = Pt(16)
     p.font.color.rgb = RGBColor(203, 213, 225)
     p.alignment = PP_ALIGN.CENTER
